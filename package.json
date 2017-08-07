@@ -1,0 +1,22 @@
+{
+  "name": "tictactoe",
+  "version": "1.0.0",
+  "description": "simple game",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IamTheCry/ticTacToe.git"
+  },
+  "author": "IamTheCry",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IamTheCry/ticTacToe/issues"
+  },
+  "homepage": "https://github.com/IamTheCry/ticTacToe#readme",
+  "dependencies": {
+    "react": "^15.6.1"
+  }
+}
