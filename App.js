@@ -7,9 +7,21 @@ class App extends React.Component {
       playerTurn: 1
     };
   }
+
+  onClick(e) {
+    e.target.value
+    if(this.state.playerTurn === 1) {
+      this.setState(
+        {playerTurn: 0}
+      )
+    } else this.setState(
+      {playerTurn: 1}
+    )
+  }
+
   render() {
     return (
-      <table>
+      <table onClick={onClick}>
         <tr>
           <td>
             a
@@ -37,7 +49,7 @@ class App extends React.Component {
         </tr>
         </tr>
         </tr>
-        </table>
+      </table>
     )
   }
 
